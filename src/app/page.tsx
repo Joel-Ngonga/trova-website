@@ -114,7 +114,7 @@ export default function Home() {
           <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" className="space-y-4">
             <input type="text" name="name" placeholder="Your Name" required className="w-full border rounded p-3" />
             <input type="email" name="email" placeholder="Your Email" required className="w-full border rounded p-3" />
-            <textarea name="message" placeholder="Your Message" rows="5" required className="w-full border rounded p-3"></textarea>
+            <textarea name="message" placeholder="Your Message" rows={5} required className="w-full border rounded p-3"></textarea>
             <button type="submit" className="bg-blue-900 text-white py-3 px-6 rounded font-semibold">Send Message</button>
           </form>
         </div>
