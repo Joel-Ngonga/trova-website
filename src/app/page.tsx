@@ -81,7 +81,7 @@ export default function Home() {
             ].map((service, index) => (
               <div key={index} className="p-6 bg-white shadow rounded-xl border">
                 <div className="h-40 bg-gray-200 rounded mb-4 flex items-center justify-center">
-                  <span className="text-gray-500">[Image Placeholder]</span>
+                  <img src="/images/image 3.png" alt="Services" className="w-full h-full object-cover rounded-2xl" />
                 </div>
                 <h4 className="text-xl font-semibold mb-2">{service}</h4>
                 <p className="text-gray-600">Learn how Trova helps you optimize your operations with our {service.toLowerCase()} services.</p>
