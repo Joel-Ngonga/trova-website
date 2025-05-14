@@ -100,7 +100,7 @@ export default function Home() {
             With agents in all 10 regions of Cameroon, we ensure nationwide coverage and expert support.
           </p>
           <div className="w-full h-64 bg-gray-300 rounded-2xl shadow-inner flex items-center justify-center">
-            <span className="text-gray-500">[About Image Placeholder]</span>
+            <img src="/images/image2.png" alt="About Trova" className="w-full h-full object-cover rounded-2xl" />
           </div>
         </div>
       </section>
